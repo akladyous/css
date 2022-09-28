@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="tailwind.css" />
+        <script defer src="./index.js"></script>
+        <title>Document</title>
+    </head>
+
+    <body>
+        <nav class="bg-gray-900">
+            <div class="flex items-center justify-between h-12 px-4 py-3">
+                <div class="flex items-center gap-2">
+                    <img src="./rails.png" alt="rails" class="h-8" />
+                    <h1 class="text-white text-10-xl">left</h1>
+                </div>
+                <div>
+                    <button
+                        type="button"
+                        id="menu-btn"
+                        class="block text-white focus:text-white hover:text-white outline-none"
+                    >
+                        <svg
+                            class="w-7 h-7"
+                            x-show="!showMenu"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="px-4 pt-2 pb-4" id="menu-list">
+                <a
+                    href="/"
+                    class="block text-white font-semibold hover:bg-gray-800 py-1"
+                    >home</a
+                >
+                <a
+                    href="/"
+                    class="mt-1 block text-white font-semibold hover:bg-gray-800 py-1"
+                    >service</a
+                >
+                <a
+                    href="/"
+                    class="mt-1 block text-white font-semibold hover:bg-gray-800 py-1"
+                    >contact</a
+                >
+                <a
+                    href="/"
+                    class="mt-1 block text-white font-semibold hover:bg-gray-800 py-1"
+                    >about</a
+                >
+            </div>
+        </nav>
+        <div class="container">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                repellendus error sunt corporis alias iusto incidunt ipsam.
+                Voluptatem expedita modi nobis officia in iure, adipisci ipsa
+                ipsum, numquam laborum non?
+            </p>
+        </div>
+        <script>
+            const menuButton = document.querySelector("#menu-btn");
+            const menuList = document.querySelector("#menu-list");
+            menuButton.addEventListener("click", () => {
+                menuList.classList.toggle("hidden");
+            });
+        </script>
+    </body>
+</html>
