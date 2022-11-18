@@ -11,6 +11,9 @@ function draw(width = 200, height = 200) {
     context.fillRect(30, 30, 50, 50)
 }
 draw()
+//
+console.log(getEventListeners(document))
+//
 document.addEventListener('visibilitychange', function (event) {
     if (document.hidden) {
         console.log('not visible');
