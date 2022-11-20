@@ -11,25 +11,47 @@
     </head>
 
     <body class="h-screen">
-        <header class="max-w-full bg-gray-400 h-12">
-            <nav class="flex justify-between px-2 py-2">
-                <div class="icon flex items-center space-x-4">
-                    <div class="flex-none">
+        <header class="max-w-full bg-gray-400 h-20">
+            <nav class="relative flex justify-between px-2 py-2 h-full">
+                <div class="flex items-center space-x-4">
+                    <div class="">
                         <img src="./assets/react.svg" alt="logo" class="h-8" />
                     </div>
                     <div class="flex-1">
                         <h3>MyApp</h3>
                     </div>
                 </div>
-                <div class="flex items-center justify-evenly">
-                    <div>products</div>
-                    <div>news</div>
-                    <div>info</div>
-                    <div>contact us</div>
+                <div
+                    class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 md:flex md:items-center md:space-x-5"
+                >
+                    <div class="hover:text-gray-300">
+                        <a href="#product">products</a>
+                    </div>
+                    <div class="hover:text-gray-300">
+                        <a href="#news">news</a>
+                    </div>
+                    <div class="hover:text-gray-300">
+                        <a href="#info">info</a>
+                    </div>
+                    <div class="hover:text-gray-300">
+                        <a href="#contact">contact us</a>
+                    </div>
                 </div>
-                <div id="nav-mobile">
+                <div class="md:flex items-center">
+                    <a
+                        class="hidden md:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold rounded-xl transition duration-200"
+                        href="#"
+                        >Sign In</a
+                    >
+                    <a
+                        class="hidden md:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
+                        href="#"
+                        >Sign up</a
+                    >
+                </div>
+                <div class="md:hidden flex sm:items-center">
                     <button
-                        class="block text-gray-500 hover:text-white focus:text-white w-8"
+                        class="block text-gray-500 hover:text-gray-100 focus:text-white w-8"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +70,99 @@
                     </button>
                 </div>
             </nav>
+            <div class="navbar-menu relative z-50 hidden">
+                <div
+                    class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"
+                ></div>
+                <nav
+                    class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
+                >
+                    <div class="flex items-center mb-8">
+                        <a
+                            class="mr-auto text-3xl font-bold leading-none"
+                            href="#"
+                        >
+                            <img
+                                src="./assets/react.svg"
+                                alt="logo"
+                                class="h-8"
+                            />
+                        </a>
+                        <button class="navbar-close">
+                            <svg
+                                class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="mb-1">
+                                <a
+                                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="mb-1">
+                                <a
+                                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li class="mb-1">
+                                <a
+                                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="mb-1">
+                                <a
+                                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#"
+                                    >Pricing</a
+                                >
+                            </li>
+                            <li class="mb-1">
+                                <a
+                                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-auto">
+                        <div class="pt-6">
+                            <a
+                                class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl"
+                                href="#"
+                                >Sign in</a
+                            >
+                            <a
+                                class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl"
+                                href="#"
+                                >Sign Up</a
+                            >
+                        </div>
+                        <p class="my-4 text-xs text-center text-gray-400">
+                            <span>Copyright © 2021</span>
+                        </p>
+                    </div>
+                </nav>
+            </div>
         </header>
         <div class="container">
             <p>
