@@ -11,19 +11,26 @@
     </head>
 
     <body class="h-screen">
-        <header class="max-w-7xl bg-gray-400 h-12">
+        <header class="max-w-full bg-gray-400 h-12">
             <nav class="flex justify-between px-2 py-2">
                 <div class="icon flex items-center space-x-4">
                     <div class="flex-none">
-                        <img src="./assets/react.svg" alt="logo" width="25px" />
+                        <img src="./assets/react.svg" alt="logo" class="h-8" />
                     </div>
                     <div class="flex-1">
                         <h3>MyApp</h3>
                     </div>
                 </div>
-                <div id="nav-menu"></div>
+                <div class="flex items-center justify-evenly">
+                    <div>products</div>
+                    <div>news</div>
+                    <div>info</div>
+                    <div>contact us</div>
+                </div>
                 <div id="nav-mobile">
-                    <button class="block text-white w-8">
+                    <button
+                        class="block text-gray-500 hover:text-white focus:text-white w-8"
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
