@@ -993,12 +993,24 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:relative {
+    position: relative;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:items-center {
     align-items: center;
   }
 }
 
 @media (min-width: 768px) {
+  .md\:relative {
+    position: relative;
+  }
+
   .md\:inline-block {
     display: inline-block;
   }
