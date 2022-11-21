@@ -3,32 +3,6 @@ body {
     margin: 0;
     height: 100vh;
 }
-header {
-    height: 70px;
-    background-color: gray;
-    font-weight: 300;
-    max-width: 100%;
-}
-nav {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 10px;
-    height: 100%;
-}
-.logo {
-    display: flex;
-}
-.primary-nav {
-    position: absolute;
-    left: 50%;
-    /* right: 50%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 50%; */
-}
 /* --------- */
 .img-container-one {
     border: 1px solid gray;
