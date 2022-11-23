@@ -3,17 +3,29 @@ body {
     padding: 0;
     height: 100vh;
 }
-.parent,
-.parent-info {
+.flex-container {
+    display: flex;
+    background-color: rgb(128, 164, 201);
+}
+.flex-container > div {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: beige;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.parent-1,
+.parent-2 {
     width: 200px;
     height: 200px;
-    display: inline-block;
 }
-.parent {
+.parent-1 {
     background-color: cadetblue;
     position: relative;
 }
-.parent-info {
+.parent-2 {
     background-color: antiquewhite;
 }
 /* -------------------------- */
@@ -35,5 +47,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* -------------------------- */
+.parent-2 p {
+    outline: 1px solid green;
+    margin: 0;
 }
 /* -------------------------- */
