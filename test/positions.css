@@ -43,36 +43,3 @@ body {
     transform: translate(-50%, -50%);
 }
 /* -------------------------- */
-
-.links {
-    margin: 2rem auto;
-    padding: 1rem;
-    border: 1px solid black;
-}
-.links {
-    resize: both;
-    overflow: auto;
-}
-/* a:any-link {
-    color: aqua;
-} */
-a:link {
-    color: var(--cc-blue);
-}
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blueviolet;
-}
-a[disabled] {
-    pointer-events: none;
-}
