@@ -53,14 +53,14 @@ body {
     opacity: 0.8;
 }
 /* ------ */
-.three {
+.img-container-three {
     /* display: inline-block; */
     /* position: relative; */
     border: 1px solid red;
     width: 300px;
     height: 300px;
 }
-.three .wrapper {
+.img-container-three .wrapper {
     /* position: absolute; */
     width: 100px;
     height: 100px;
