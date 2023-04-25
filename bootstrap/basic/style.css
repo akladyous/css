@@ -61,6 +61,3 @@ span {
   padding: 10px;
 }
 /* --------------------------------------- */
-.adjacent-sibling + h {
-  color: blue;
-}
