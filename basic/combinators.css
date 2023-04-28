@@ -32,10 +32,12 @@ descendant-combinator > ul li {
   color: blue;
 }
 
-section.adjacent-sibling > p + p {
+section.adjacent-sibling > p > code {
+  font-weight: 800;
+  font-size: x-large;
   color: brown;
-  font-weight: 600;
 }
+
 section.adjacent-sibling > div.parent > div > p + p {
   color: blueviolet;
   text-decoration: underline;
