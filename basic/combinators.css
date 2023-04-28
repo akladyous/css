@@ -16,7 +16,7 @@ article > h1 {
   border-inline: 1px solid red;
   border-block: 1px solid blue;
   padding-inline: 10px;
-  width: fit-content;
+  width: min-content;
 }
 article > section > h1 {
   color: blue;
