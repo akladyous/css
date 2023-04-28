@@ -17,5 +17,6 @@ main > div.image-1 {
   /* background-image: url('https://placeimg.com/992/480/any'); */
   background-image: url('../images/cheatch1.avif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90% 90%;
+  background-position: 50% 50%;
 }
