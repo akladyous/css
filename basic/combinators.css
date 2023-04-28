@@ -48,3 +48,6 @@ section.adjacent-sibling > div.parent > div > p + p {
 .pseudo-class > ul li:nth-child(2n + 1) {
   background-color: antiquewhite;
 }
+section p > .nemo {
+  border: 1px solid orange;
+}
