@@ -9,5 +9,13 @@ main > div.main-images {
 }
 
 main > div.image-1 {
-  background-image: url('https://unsplash.com/photos/hksj-fvUVek');
+  border: 1px solid green;
+  width: 30%;
+  height: 400px;
+  /* background-image: url('https://unsplash.com/photos/hksj-fvUVek'); */
+  /* background-image: url('https://picsum.photos/800/800'); */
+  /* background-image: url('https://placeimg.com/992/480/any'); */
+  background-image: url('../images/cheatch1.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
