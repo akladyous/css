@@ -49,5 +49,7 @@ section.adjacent-sibling > div.parent > div > p + p {
   background-color: antiquewhite;
 }
 section p > .nemo {
-  border: 1px solid orange;
+  border: 5px solid orange;
+  padding: 5px;
+  margin: 10px;
 }
