@@ -2,13 +2,13 @@ body {
   box-sizing: border-box;
   margin: 20px;
 }
-main > div.main-images {
+.main-images {
   border: 1px solid black;
   padding: 5px;
   margin-bottom: 10px;
 }
 
-main > div.image-1 {
+image-1 {
   border: 1px solid green;
   width: 30%;
   height: 400px;
@@ -19,4 +19,12 @@ main > div.image-1 {
   background-repeat: no-repeat;
   background-size: 90% 90%;
   background-position: 50% 50%;
+}
+image-2 {
+  width: 400px;
+  height: 400;
+}
+image-3 {
+  width: 400px;
+  height: 400;
 }
