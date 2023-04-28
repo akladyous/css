@@ -14,8 +14,15 @@ article > h1:nth-child(1) {
 article > h1 {
   color: red;
   border-inline: 1px solid red;
-  padding-inline: 3px;
+  border-block: 1px solid blue;
+  padding-inline: 10px;
   width: fit-content;
+}
+article > section > h1 {
+  color: blue;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
 }
 
 .child-combinator > ul > li {
