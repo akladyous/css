@@ -42,11 +42,6 @@ section.adjacent-sibling > p > code {
   color: brown;
 }
 
-section.adjacent-sibling > div.parent > div > p + p {
-  color: blueviolet;
-  text-decoration: underline;
-}
-
 .pseudo-class > ul li:nth-child(2n + 1) {
   background-color: antiquewhite;
 }
