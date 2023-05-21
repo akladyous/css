@@ -1,42 +1,5 @@
-.calculator{
-    width: 800px;
-    /* margin: 100px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    display: flex;
-    box-sizing: border-box;
-    border: 1px solid black;
-    flex-direction: column;
-}
-.flex-container{
-    width: 750px;
-    margin: 5px;
-    border: 1px solid red;
-    box-sizing: border-box;
-    display: flex;
-
-    background-color: burlywood;
-    /* MAIN access (horizontal) */
-    /* justify-content:left;  */
-    /* CROSS access (vertical) */
-    /* align-items: center;  */
-    /* box-shadow: 0 2px 5px 1px rgba(64,60,67,.16); */
-    
-}
-.flexbox-item{
-    /* height: 50px; */
-    margin: 10px;
-    border: 1px solid black;
-    padding: 5px;
-    /* min-width: 300px; */
-    flex: 1 1 100px;
-    
-}
-.item1{
-    /* min-width: 600px; */
-    /* flex-grow: 5; */
-}
-.item2{
-    /* flex-grow: 1; */
-    /* min-width: 300px; */
+main {
+  min-height: 100vh;
+  border: 1px solid black;
+  margin: 10px;
 }
