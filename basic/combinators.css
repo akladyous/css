@@ -13,16 +13,20 @@ article > h1:nth-child(1) {
 }
 article > h1 {
   color: red;
-  border-inline: 1px solid red;
-  border-block: 1px solid blue;
-  padding-inline: 10px;
-  width: min-content;
+  border-inline: 2px solid red;
+  border-block: 2px solid blue;
+  padding-inline: 15px;
+  width: max-content;
+  text-transform: capitalize;
 }
 article > section > h1 {
   color: blue;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
+  background-color: antiquewhite;
+  width: max-content;
+  padding: 5px 10px;
 }
 
 .child-combinator > ul > li {
