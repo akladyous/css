@@ -7,21 +7,33 @@ main {
 
 .container {
   border: 1px solid gray;
-  margin: 0.5rem auto;
-  min-height: 5rem;
-  width: 400px;
-
   display: flex;
-  justify-content: center;
-  align-items: center;
-  /* gap: 0.5rem; */
-  /* column-gap: 1rem; */
-  /* row-gap: 1rem; */
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 10px 5px;
 }
 
 .container > div {
   border: 1px solid green;
-  background-color: aquamarine;
-  width: 100px;
+  background-color: lime;
+  /* width: 100px; */
   height: 50px;
+}
+.one {
+  flex-grow: 1;
+}
+.two {
+  flex-grow: 2;
+}
+.three {
+  flex-grow: 3;
+}
+.four {
+  flex-grow: 4;
+}
+.five {
+  flex-grow: 5;
+}
+.six {
+  flex-grow: 6;
 }
