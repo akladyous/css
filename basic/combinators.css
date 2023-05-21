@@ -29,18 +29,23 @@ article > section > h1 {
   padding: 5px 10px;
 }
 /* ------------------------------------------- */
-.child-combinator > ul > li {
+section.child-combinator > ul > li {
   color: brown;
   text-decoration: underline;
   font-weight: 800;
 }
-
-section.adjacent-sibling > p > code {
+/* ------------------------------------------- */
+/* section.adjacent-sibling > p > code {
   font-weight: 800;
   font-size: x-large;
   color: brown;
+} */
+
+section.adjacent-sibling > h1 + p {
+  background-color: aquamarine;
 }
 
+/* ------------------------------------------- */
 .pseudo-class > ul li:nth-child(2n + 1) {
   background-color: antiquewhite;
 }
