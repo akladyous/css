@@ -52,6 +52,7 @@
             <li>child four</li>
           </ul>
         </section>
+
         <section class="descendant-combinator">
           <h1>Descendant combinator</h1>
           <p>The <strong>descendant combinator</strong>,</p>
@@ -66,14 +67,11 @@
 
         <section class="adjacent-sibling">
           <h1>Adjacent sibling combinator</h1>
-          <p>The adjacent sibling selector (<code>&plus;</code>) is placed between two CSS selectors.
-          </p>
-          <p>It matches only those elements matched by the second selector that are the next sibling element of the first selector.
-          </p>
+          <p>The adjacent sibling selector (<code>&plus;</code>) is placed between two CSS selectors.</p>
+          <p>It matches only those elements matched by the second selector that are the next sibling element of the first selector.</p>
           <p>
             For example, to select all <code>&lt;img&gt;</code> elements that are immediately preceded by a <code>&lt;p&gt;</code> element:
           </p>
-
           <p>A common use case is to do something with a paragraph that follows a heading, as in the example below. In that example, we are looking for any paragraph which shares a parent element with an <code>&lt;h1&gt;</code>, and immediately follows that <code>&lt;h1&gt;</code>.</p>
           <div class="parent">
             <h1>Heading 1</h1>
@@ -91,7 +89,7 @@
           <p>If you want to select siblings of an element even if they are not directly adjacent, then you can use the general sibling combinator (<code>~</code>). To select all <code>&lt;img&gt;</code> elements that come <em>anywhere</em> after <code>&lt;p&gt;</code> elements, we'd do this:</p>
         </section>
       </article>
-
+      <!-- --------------------------------------------------------------------------------------------------------- -->
       <section class="pseudo-class">
         <h1>Pseudo class</h1>
         <ul class="unordered-list">
