@@ -30,10 +30,9 @@ article > section > h1 {
 }
 
 .child-combinator > ul > li {
-  color: red;
-}
-descendant-combinator > ul li {
-  color: blue;
+  color: brown;
+  text-decoration: underline;
+  font-weight: 800;
 }
 
 section.adjacent-sibling > p > code {
