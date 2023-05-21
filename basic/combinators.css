@@ -28,7 +28,7 @@ article > section > h1 {
   width: max-content;
   padding: 5px 10px;
 }
-
+/* ------------------------------------------- */
 .child-combinator > ul > li {
   color: brown;
   text-decoration: underline;
