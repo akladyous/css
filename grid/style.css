@@ -5,7 +5,24 @@ body {
 }
 
 .grid-box {
-  background-color: aqua;
-  /* border: 1px solid gray; */
-  /* display: grid; */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grid-box > div {
+  background-color: lightblue;
+  padding: 30px;
+}
+
+.grid-box > div:nth-child(even) {
+  background-color: bisque;
+}
+
+.grid-box {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-auto-rows: 200px; */
+  /* grid-auto-rows: minmax(200px, 300px); */
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
 }
