@@ -1,6 +1,7 @@
 body {
   box-sizing: content-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem;
 }
 
 .grid-box {
