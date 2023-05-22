@@ -1,0 +1,10 @@
+body {
+  box-sizing: content-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-box {
+  background-color: aqua;
+  /* border: 1px solid gray; */
+  /* display: grid; */
+}
