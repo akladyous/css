@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.image {
+  margin-block-end: 10px;
+}
+.one {
+  border: 1px solid green;
+  width: 400px;
+  height: 400px;
+  /* background-image: url('https://unsplash.com/photos/hksj-fvUVek'); */
+  /* background-image: url('https://picsum.photos/800/800'); */
+  /* background-image: url('https://placeimg.com/992/480/any'); */
+  background-image: url('../images/cheatch1.avif');
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  background-position: 50% 50%;
+}
+.two {
+  width: 400px;
+  height: 400px;
+  background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.three {
+  width: 400px;
+  height: 400px;
+}

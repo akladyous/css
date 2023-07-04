@@ -1,0 +1,11 @@
+.parent {
+    border: 1px solid blue;
+    padding: 5px;
+}
+.parent div {
+    border: 1px solid black;
+    /* width: 15rem; */
+    /* height: 5rem; */
+    padding-block: 5px;
+    padding-inline: 5px;
+}

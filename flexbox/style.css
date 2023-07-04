@@ -1,0 +1,39 @@
+main {
+  height: 100vh;
+  border: 1px solid black;
+  margin: 1rem 2rem;
+  padding: 1rem;
+}
+
+.container {
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 10px 5px;
+}
+
+.container > div {
+  border: 1px solid green;
+  background-color: lime;
+  /* width: 100px; */
+  height: 50px;
+}
+.one {
+  flex-grow: 1;
+}
+.two {
+  flex-grow: 2;
+}
+.three {
+  flex-grow: 3;
+}
+.four {
+  flex-grow: 4;
+}
+.five {
+  flex-grow: 5;
+}
+.six {
+  flex-grow: 6;
+}
